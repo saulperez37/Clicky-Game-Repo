@@ -1,0 +1,62 @@
+[
+    {
+    "id": 1,
+    "clicked": false,
+    "image": "./assets/images/audi.png"
+},
+{
+    "id": 2,
+    "clicked": false,
+    "image": "./assets/images/bmw.png"   
+},
+{
+    "id": 3,
+    "clicked": false,
+    "image": "./assets/images/chevrolet.png"   
+},
+{
+    "id": 4,
+    "clicked": false,
+    "image": "./assets/images/dodge.png"   
+},
+{
+    "id": 5,
+    "clicked": false,
+    "image": "./assets/images/ford.png"   
+},
+{
+    "id": 6,
+    "clicked": false,
+    "image": "./assets/images/honda.png"   
+},
+{
+    "id": 7,
+    "clicked": false,
+    "image": "./assets/images/jeep.png"   
+},
+{
+    "id": 8,
+    "clicked": false,
+    "image": "./assets/images/mercedes.png"   
+},
+{
+    "id": 9,
+    "clicked": false,
+    "image": "./assets/images/nissan.png"   
+},
+{
+    "id": 10,
+    "clicked": false,
+    "image": "./assets/images/porsche.png"   
+},
+{
+    "id": 11,
+    "clicked": false,
+    "image": "./assets/images/subaru.png"   
+},
+{
+    "id": 12,
+    "clicked": false,
+    "image": "./assets/images/toyota.png"   
+}
+]

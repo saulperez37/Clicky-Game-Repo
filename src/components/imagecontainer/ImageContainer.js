@@ -1,9 +1,14 @@
 import React from 'react';
+import "./ImageContainer.css";
 
-const ImageContainder = () => {
+const ImageContainer = (props) => {
     return (
-        <ImageContainder />
+        <div className="card">
+            <div className="img-container">
+            <img alt={props.name} src={props.image} />
+            </div>
+        </div>
     );
 };
 
-export default ImageContainder;
+export default ImageContainer;
