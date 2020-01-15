@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import ImageContainer from './components/imagecontainer/ImageContainer';
 import Wrapper from './components/wrapper/Wrapper';
+import Header from './components/header/Header';
 import matches from "./carbrandlogos.json";
-
 
 class App extends Component {
   state = {
@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <p>Title Goes Here</p>
-        <div>
+        <Header>Title Goes Here</Header>
+        <div className="row">
           {this.state.matches.map(match => (
             <ImageContainer 
             id={match.id}

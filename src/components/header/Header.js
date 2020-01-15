@@ -1,8 +1,11 @@
 import React from 'react';
+import "./Header.css"
 
-const Header = () => {
+const Header = (props) => {
     return (
-        <Header />
+        <div className="header"> 
+        <h1>{props.children}</h1>
+        </div>
     );
 };
 
