@@ -1,13 +1,19 @@
-.card>.img-container>img {
-width: 150px;
-
+img {
+    width: 170px;
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 
 .card {
     background: #dddd;
     border-radius: 2px;
+    box-shadow: 0 2px 4px #999, 0 2px 4px #999;
     text-align: left;
     justify-content: center;
+    height: 250px;
+    float: left;
+    margin: 5px;
 }
 
 .card>.img-container {
@@ -15,4 +21,5 @@ width: 150px;
     text-align: center;
     justify-content: center;
     margin: 20px;
+    width: 200px;
 }
